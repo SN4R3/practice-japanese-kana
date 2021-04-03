@@ -17,6 +17,6 @@ git add -A
 git commit -m 'deploy'
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:sn4r3/practice-kana.git master:gh-pages
+git push -f git@github.com:sn4r3/practice-japanese-kana.git master:gh-pages
 
 cd -

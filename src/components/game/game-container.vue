@@ -1,6 +1,6 @@
 <style scoped>
   .game-container {
-    background-image: url('../../assets/images/background_1.jpg');
+    background-image: url('../../assets/img/background_1.jpg');
     background-position: top;
     background-size:cover;
     background-repeat: no-repeat;
@@ -319,7 +319,7 @@ export default {
     playSound() {
       let self = this;
       if(!this.audio && this.game.lastChar.id.split('-')[0] !== 'ka') {
-        this.audio = new Audio('/sounds/'+this.game.lastChar.id.split('-')[0]+'/'+this.game.lastChar.romanization+'.mp3');
+        this.audio = new Audio('/img/sounds/'+this.game.lastChar.id.split('-')[0]+'/'+this.game.lastChar.romanization+'.mp3');
         this.audio.play();
         let inv = setInterval(() => {
           if(self.audio) {

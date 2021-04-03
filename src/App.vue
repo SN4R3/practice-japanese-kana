@@ -2,7 +2,7 @@
   <div id="app">
     <b-navbar class="navbar" type="dark" variant="dark">
       <b-navbar-brand href="/">
-        Japanese Kana Practice Game
+        Japanese Kana Practice Game.
       </b-navbar-brand>
       <b-navbar-nav>
       </b-navbar-nav>
